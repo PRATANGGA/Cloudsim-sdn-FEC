@@ -166,6 +166,7 @@ public class SimpleExampleInterCloud {
 				Log.disable();
 			
 			startSimulation(broker, dcs.values());
+			LogPrinter.printTotalEnergy();
 			
 		} catch (Exception e) {
 			e.printStackTrace();

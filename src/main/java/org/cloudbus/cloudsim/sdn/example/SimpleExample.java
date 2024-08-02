@@ -19,6 +19,7 @@ import org.cloudbus.cloudsim.Log;
 import org.cloudbus.cloudsim.Storage;
 import org.cloudbus.cloudsim.VmAllocationPolicy;
 import org.cloudbus.cloudsim.core.CloudSim;
+import org.cloudbus.cloudsim.examples.power.planetlab.PlanetLabConstants;
 import org.cloudbus.cloudsim.sdn.HostFactory;
 import org.cloudbus.cloudsim.sdn.HostFactorySimple;
 import org.cloudbus.cloudsim.sdn.SDNBroker;
@@ -189,9 +190,10 @@ public class SimpleExample {
 			List<Host> hostList = nos.getHostList();
 			List<Switch> switchList = nos.getSwitchList();
 			LogPrinter.printEnergyConsumption(hostList, switchList, finishTime);
-
+			LogPrinter.printTotalEnergy();
 			Log.printLine("Simultanously used hosts:"+maxHostHandler.getMaxNumHostsUsed());			
-			Log.printLine("CloudSim SDN finished!");
+			Log.printLine("CloudSim SDsN finished!");
+			
 
 		} catch (Exception e) {
 			e.printStackTrace();
