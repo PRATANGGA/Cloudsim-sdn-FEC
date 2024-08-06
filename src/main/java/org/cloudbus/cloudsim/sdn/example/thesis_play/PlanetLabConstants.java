@@ -14,6 +14,6 @@ package org.cloudbus.cloudsim.sdn.example.thesis_play;
  */
 public class PlanetLabConstants {
 
-	public final static int NUMBER_OF_HOSTS = 400;
+	public final static int NUMBER_OF_HOSTS = 800;
 
 }

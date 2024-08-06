@@ -6,17 +6,14 @@
  * Copyright (c) 2009-2012, The University of Melbourne, Australia
  */
 
-package org.cloudbus.cloudsim.sdn.example.power;
+package org.cloudbus.cloudsim.power;
 
 import java.util.List;
 
 import org.cloudbus.cloudsim.Host;
 import org.cloudbus.cloudsim.Vm;
 import org.cloudbus.cloudsim.power.PowerHost;
-import org.cloudbus.cloudsim.power.PowerHost;
 import org.cloudbus.cloudsim.power.PowerVmAllocationPolicyMigrationAbstract;
-import org.cloudbus.cloudsim.power.PowerVmAllocationPolicyMigrationAbstract;
-import org.cloudbus.cloudsim.power.PowerVmSelectionPolicy;
 import org.cloudbus.cloudsim.power.PowerVmSelectionPolicy;
 
 /**

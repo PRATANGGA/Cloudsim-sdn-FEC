@@ -1,4 +1,4 @@
-package org.cloudbus.cloudsim.sdn.example.power;
+package org.cloudbus.cloudsim.power;
 
 
 import java.util.ArrayList;
